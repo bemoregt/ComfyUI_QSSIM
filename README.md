@@ -2,6 +2,8 @@
 
 A ComfyUI custom node that computes **QSSIM** (Quaternion Structural Similarity Index Measure) — a color-aware image quality metric that treats each RGB pixel as a pure quaternion.
 
+![이미지 스펙트럼 예시](https://github.com/bemoregt/ComfyUI_QSSIM/blob/main/ScrShot%203.png)
+
 ## Why QSSIM?
 
 Standard SSIM converts color images to grayscale or evaluates each channel independently, discarding cross-channel color relationships. QSSIM addresses this by representing every pixel as a **pure quaternion**:
